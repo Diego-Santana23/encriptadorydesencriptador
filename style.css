@@ -99,3 +99,84 @@ main{
         gap: 0.3rem;
 }
 
+@media (max-width: 1024px) {
+    .logo {
+        width: 15%;
+    }
+
+    main {
+        margin-left: 40px;
+    }
+
+    .mensaje {
+        margin-left: 40px;
+        padding-left: 10px;
+        width: 80%;
+    }
+
+    .copiar {
+        margin-left: 40px;
+        width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    * {
+        font-size: 24px;
+    }
+
+    .logo {
+        width: 20%;
+    }
+
+    main {
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .botones {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .botonDesencriptar, 
+    .botonEncriptar {
+        width: 100%;
+    }
+
+    .mensaje {
+        margin-left: 20px;
+        width: calc(100% - 40px);
+    }
+
+    .copiar {
+        margin-left: 20px;
+        width: calc(100% - 40px);
+    }
+}
+
+@media (max-width: 480px) {
+    * {
+        font-size: 18px;
+    }
+
+    .logo {
+        width: 30%;
+    }
+
+    .textarea {
+        margin-top: 50px;
+        font-size: 16px;
+    }
+
+    .mensaje {
+        margin-left: 10px;
+        width: calc(100% - 20px);
+    }
+
+    .copiar {
+        margin-left: 10px;
+        width: calc(100% - 20px);
+    }
+}
